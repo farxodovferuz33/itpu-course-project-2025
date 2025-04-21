@@ -1,0 +1,39 @@
+.minaret1{
+    border-radius: 25px;
+    width: 700px;
+    height: 100%;
+}
+
+.whyUsMain{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 75px;
+}
+
+.usInfo1{
+    margin-top: 70px;
+    width: 35%;
+}
+
+@media screen and (max-width: 1200px){
+    .minaret1{
+        width: 550px;
+    }
+    .usInfo1{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .minaret1{
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .usInfo1{
+        width: 80%;
+    }
+    .minaret1{
+        display: none;
+    }
+}

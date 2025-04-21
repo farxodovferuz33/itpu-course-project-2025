@@ -1,0 +1,8 @@
+Admin Panel
+JS send to TG bot and save to database booked users <<<<< BOOK NOW >>>>>
+Update Guides, Packets
+edit their status: CALLED, WILL GO: YES, COMPLETED: FALSE
+
+Security
+
+Register and Login page  

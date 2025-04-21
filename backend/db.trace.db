@@ -1,0 +1,12 @@
+2023-11-13 01:18:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEEDBACKS" not found (this database is empty); SQL statement:
+select * from feedbacks [42104-214]
+2023-11-13 01:18:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEEDBACK" not found (this database is empty); SQL statement:
+select * from feedback [42104-214]
+2023-11-13 01:18:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEEDBACK" not found (this database is empty); SQL statement:
+select * from feedback [42104-214]
+2023-11-13 01:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]\\d"; SQL statement:
+\d [42000-214]

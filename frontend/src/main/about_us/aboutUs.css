@@ -1,0 +1,59 @@
+
+.aboutUs{
+    height: 800px;
+    overflow: hidden;
+    background-image: url("./img/back_registon.jpg");
+    transform: scale(1.05);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0 10px;
+}
+
+.color{
+    height: 100%;
+    background-color: rgba(11, 2, 45, 0.55);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+
+}
+
+.aboutusbody{
+    overflow: hidden;
+    position: relative;
+}
+
+.h1-of-aboutusbody{
+    color: white;
+    margin-top: 250px;
+    font-size: 70px;
+
+}
+
+.p-of-aboutusbody{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .h1-of-aboutusbody{
+        font-size: 55px;
+    }
+    .aboutUs{
+        height: 700px;
+    }
+    .p-of-aboutusbody{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .h1-of-aboutusbody{
+        font-size: 45px;
+    }
+    .p-of-aboutusbody{
+        font-size: 20px;
+    }
+}

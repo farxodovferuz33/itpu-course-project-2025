@@ -1,0 +1,27 @@
+.intro12{
+    margin: 65px auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.galleryPic{
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 8px 13px 14px 7px rgba(157, 135, 243, 0.25);
+}
+
+.galleryGroup{
+    width: 97%;
+    height: 500px;
+    display: flex;
+    overflow: scroll;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    flex-direction: column;
+    grid-auto-flow: row;
+}

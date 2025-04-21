@@ -1,0 +1,75 @@
+.App{
+    display: flex;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.left-side{
+    width: 20vw;
+    height: 100vh;
+    background: #24263A;
+}
+
+.right-side, #gallery, #feedback, .guideMain{
+    width: 80vw;
+    height: 100vh;
+    background: #1D1E2C;
+    overflow: scroll;
+}
+
+.btn-group{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.btn-of-left{
+    width: 18vw;
+    height: 60px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    background: #1D1E2C;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-of-left:hover{
+    scale: 1.05;
+    transition: all 0.2s;
+    /*box-shadow: 10px 14px 50px 38px rgba(255, 255, 255, 0.2) inset;*/
+    box-shadow: -6px 5px 10px 2px rgba(181, 182, 183, 0.09);
+    border-radius: 25px;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #24263A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1, h3{
+    color: white;
+}
+
+.active-link {
+
+}
+
+#pagination{
+    position: fixed;
+    top: 82vh;
+    left: 55vw;
+}

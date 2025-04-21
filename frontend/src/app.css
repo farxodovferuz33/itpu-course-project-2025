@@ -1,0 +1,10 @@
+*::selection{
+    background-color: rgb(84, 48, 255, 0.7);
+    color: white;
+}
+
+button:hover{
+    scale: 1.1;
+    transition: all 1s;
+    box-shadow: 8px 13px 14px 7px rgba(157, 135, 243, 0.25);
+}
