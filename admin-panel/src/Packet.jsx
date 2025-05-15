@@ -60,7 +60,7 @@ function Packet(props) {
                     <input {...register("photo")} className="form-control form-control-lg mx-5 w-75" type="file"/>
                     <input {...register("caption")} className="form-control form-control-sm mx-5 w-75" type="text" placeholder="caption" />
                     <input {...register("description")} className="form-control form-control-sm mx-5 w-75" type="text" placeholder="description" />
-                    <input {...register("price")} className="form-control form-control-sm mx-5 w-75" type="text" placeholder="price" />
+                    <input {...register("price")} className="form-control form-control-sm mx-5 w-75" type="number" placeholder="price" />
                     <button className={"btn btn-success float-end"}>Save</button>
                 </form>
             </div>
