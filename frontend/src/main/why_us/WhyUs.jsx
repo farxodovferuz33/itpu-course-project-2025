@@ -16,7 +16,7 @@ function WhyUs(props) {
                     <h5 style={{textShadow: "4px 4px 2px rgba(157,135,243,0.6)"}}>
                         {lang==="RU"?"* Самые дешевые цены":"* Affordable prices"}</h5>
                     <p>
-                        {lang==="RU"?"Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"}
+                        {lang==="RU"?"С нами вы можете путешествовать по историческим местам Узбекистана от 700 000 сум.":"You can travel with us with starting price of packets 700 000 ming sum"}
                     </p>
 
                     <br/>
@@ -25,7 +25,7 @@ function WhyUs(props) {
                         {lang==="RU"?"* Профессиональные гиды":"* Professional guides"}</h5>
 
                     <p>
-                        {lang==="RU"?"Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной Lorem Ipsum - это текст-рыба":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"}
+                        {lang==="RU"?"С нашими профессиональными гидами вы не только весело проведете время, но и улучшите свои знания об истории Узбекистана.":"Not only you will have a rest with our guides plus you will improve knowledge about history"}
                     </p>
                 </div>
 

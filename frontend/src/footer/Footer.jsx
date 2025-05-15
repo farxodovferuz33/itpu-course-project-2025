@@ -22,9 +22,9 @@ function Footer(props) {
                         <br/>
                         <br/>
 
-                        {lang==="RU"?"Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал \n" +
-                            "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum Lorem Ipsum - это текст-рыба, часто используемый в печати Lorem Ipsum - это текст-рыба, часто используемый в печати Lorem Ipsum - это текст-рыба, часто используемый в печати":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery \n" +
-                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s "}
+                        {lang==="RU"?"Наша компания  предлагает туристические пакеты Salamon Travel.В туристическом пакете Salamon travel вы можете принять участие в чудесном путешествии по Узбекистану, полном незабываемых моментов. \n" +
+                            "В древней Бухаре мы предлагаем Вам посетить Священные 7 пиров Бухары, Чорбакр, Летнюю резиденцию последнего эмира Бухарского ":"\"Salamon Travel\" sayyohlik paketlarini taqdim etadi.Siz \"Salamon travel\" paketida Òzbekiston bòylab ajoyib ko'ngilochar sayohatlar orqali   unutilmas lahzalarning guvohi bo'lasiz. \n" +
+                            "Buxoroning qadimiy qadamjolari, xususan, Yetti pir ,Chorbakr va Sònggi Buxoro Amiri Amir Olimxonning yozgi saroyini ham kòrishingiz mumkin.Bundan tashqari, Toshkent toģ baģrida dam olib, ajoyib va bir-biridan go'zal xotiralarning egasiga aylanasiz.Poytaxtimizning muqaddas gòshalariga sayohat uyushtirib, mazza qilib hordiq chiqarish ham aynan bizning firmamiz orqali amalga oshadi. "}
                     </p>
                 </div>
 
