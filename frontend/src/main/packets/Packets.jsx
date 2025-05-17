@@ -52,7 +52,7 @@ function Packets(props) {
     function sendMessageToBot(data, item) {
         const BOT_TOKEN = '7619134448:AAFkGxnAjiXrUb1-vv_4_xwcYyxX0MbK7SI';
         const CHAT_ID = ['1972261796'];
-        const MESSAGE = `ism familya: ${data.name} \ntelefon raqam: ${data.phone} \n Packet nomi: ${item.title}`;
+        const MESSAGE = `\n⭕TOUR IS BOOKED (${item.title}) \n\n✔Name and Surename: ${data.name} \n✅Phone Number: ${data.phone} \n💨Packet name: ${item.title}`;
         const apiUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
         for (let id of CHAT_ID) {
@@ -84,7 +84,7 @@ function Packets(props) {
         setCart1([...cart1])
         reset()
         setVisible(!visible)
-        alert("Paket muvaffaqiyatli bron qilindi")
+        alert("Packet successfully booked")
         window.location.reload()
     }
 
@@ -107,7 +107,7 @@ function Packets(props) {
                                     <h5 className={"card-title"}>{item.title}</h5>
                                     <p className={"card-text"}>{item.description}</p>
                                     <p className={"card-text text-success"}>{item.price} so'm</p>
-                                    <button className={'bron-button'} onClick={() => bronQilish(item)}>Bron qilish</button>
+                                    <button className={'bron-button'} onClick={() => bronQilish(item)}>Book tour</button>
                                 </div>
                         </div>
                     )}
@@ -122,7 +122,7 @@ function Packets(props) {
         }}>
             <form className={"formOfRodal p-2"} onSubmit={handleSubmit(mySubmit)}>
                 <br/>
-                <input minLength={2} required={true} placeholder={"O'zingiz haqqingizda ma'lumot (Ism va manzilingiz)"} className={"form-control w-100 "} {...register("name")} type="text"/> <br/>
+                <input minLength={2} required={true} placeholder={"Your name and surename"} className={"form-control w-100 "} {...register("name")} type="text"/> <br/>
                 <input defaultValue={"998"} pattern="\d{12}" required={true} placeholder={"telefon raqam"} className={"form-control w-100 "} {...register("phone")} type="tel"/> <br/>
                 <p>Online payment<br/> <span style={{color:"green"}}>2222 2222 3333 3333</span> <br/>
                 <span style={{color:"green"}}>NAME SURENAME</span>

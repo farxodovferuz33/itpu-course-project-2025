@@ -11,7 +11,7 @@ function Feedback(props) {
         await saveFeedback(data).then().catch()
         await sendMessageToBot(data).then().catch()
         reset()
-        alert("Feedback jo'natildi!")
+        alert("Feedback Sent")
     }
 
     const lang = localStorage.getItem("lang");
@@ -20,7 +20,7 @@ function Feedback(props) {
     async function sendMessageToBot(data) {
         const BOT_TOKEN = '7619134448:AAFkGxnAjiXrUb1-vv_4_xwcYyxX0MbK7SI';
         const CHAT_ID = ['1972261796'];
-        const MESSAGE = `Name and surename: \nIsm familya: ${data.fullName} \nYour phone number: ${data.phoneNumber} \nEmail: ${data.email} \nFeedback: *${data.feedback}*`;
+        const MESSAGE = `\n💌Feedback sent\n\n❕Name and surename: ${data.fullName} \n✅Phone number: ${data.phoneNumber} \n〽Email: ${data.email} \n🤍Feedback: ${data.feedback}`;
         const apiUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
         for (let id of CHAT_ID) {
@@ -63,7 +63,7 @@ function Feedback(props) {
                         <label>
                             {lang==="RU"?"Ваш номер телефона:":"Your phone number:"}
 
-                            <input required={true} {...register("phoneNumber")}  className={"form-control"} type="tel" placeholder={"Your phone number"}/>
+                            <input required={true} {...register("phoneNumber")} className={"form-control"} type="tel" placeholder={"Your phone number"}/>
                         </label>
                         <br/>
                         <br/>

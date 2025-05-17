@@ -88,7 +88,7 @@ function Header(props) {
                                     window.location.reload()
                                     alert("Paket o'chirildi!")
                                 }} className={"btn btn-danger"}>X</button></td>
-                            </tr>):<tr className={"text-center text-success my-5"}><td>Sizda hozircha bron qilingan paketlar mavjud emas</td></tr>
+                            </tr>):<tr className={"text-center text-success my-5"}><td>No booked travel tours</td></tr>
                         }
                         </tbody>
 
