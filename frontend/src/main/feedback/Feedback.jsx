@@ -63,7 +63,7 @@ function Feedback(props) {
                         <label>
                             {lang==="RU"?"Ваш номер телефона:":"Your phone number:"}
 
-                            <input required={true} pattern="\d{12}" defaultValue={"+"} {...register("phoneNumber")}  className={"form-control"} type="tel" placeholder={"Your phone number"}/>
+                            <input required={true} {...register("phoneNumber")}  className={"form-control"} type="tel" placeholder={"Your phone number"}/>
                         </label>
                         <br/>
                         <br/>
