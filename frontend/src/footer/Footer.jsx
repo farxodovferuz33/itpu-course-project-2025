@@ -22,8 +22,8 @@ function Footer(props) {
                         <br/>
                         <br/>
 
-                        {lang==="RU"?"Наша компания  предлагает туристические пакеты Salamon Travel.В туристическом пакете Salamon travel вы можете принять участие в чудесном путешествии по Узбекистану, полном незабываемых моментов. \n" +
-                            "В древней Бухаре мы предлагаем Вам посетить Священные 7 пиров Бухары, Чорбакр, Летнюю резиденцию последнего эмира Бухарского ":"\"Salamon Travel\" sayyohlik paketlarini taqdim etadi.Siz \"Salamon travel\" paketida Òzbekiston bòylab ajoyib ko'ngilochar sayohatlar orqali   unutilmas lahzalarning guvohi bo'lasiz. \n" +
+                        {lang==="RU"?"Наша компания  предлагает туристические пакеты Company Name.В туристическом пакете Company Name вы можете принять участие в чудесном путешествии по Узбекистану, полном незабываемых моментов. \n" +
+                            "В древней Бухаре мы предлагаем Вам посетить Священные 7 пиров Бухары, Чорбакр, Летнюю резиденцию последнего эмира Бухарского ":"\"Company Name\" sayyohlik paketlarini taqdim etadi.Siz \"Company Name\" paketida Òzbekiston bòylab ajoyib ko'ngilochar sayohatlar orqali   unutilmas lahzalarning guvohi bo'lasiz. \n" +
                             "Buxoroning qadimiy qadamjolari, xususan, Yetti pir ,Chorbakr va Sònggi Buxoro Amiri Amir Olimxonning yozgi saroyini ham kòrishingiz mumkin.Bundan tashqari, Toshkent toģ baģrida dam olib, ajoyib va bir-biridan go'zal xotiralarning egasiga aylanasiz.Poytaxtimizning muqaddas gòshalariga sayohat uyushtirib, mazza qilib hordiq chiqarish ham aynan bizning firmamiz orqali amalga oshadi. "}
                     </p>
                 </div>
