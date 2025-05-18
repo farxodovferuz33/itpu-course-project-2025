@@ -21,8 +21,9 @@ public class RunLoader implements CommandLineRunner {
     @Override
     public void run(String... args) {
         List<Role> allRoles = roleRepo.findAll();
+        List<MyUser> allUsers = userRepo.findAll();
 
-        if (allRoles.isEmpty()) {
+        if (allRoles.isEmpty() || allUsers.isEmpty()) {
             List<Role> roles = List.of(
                     new Role(1L, "ROLE_ADMIN"),
                     new Role(2L, "ROLE_SUPER_ADMIN")
