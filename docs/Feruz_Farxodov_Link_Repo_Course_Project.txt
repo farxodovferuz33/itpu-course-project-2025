@@ -1,0 +1,14 @@
+(accessable for everyone with link)
+contact me if you cannot access (+998200040860, feruz_farxodov@student.itpu.uz, feruz_farxodov@epam.com
+
+http:
+
+https://github.com/farxodovferuz33/itpu-course-project-2025.git
+
+ssh:
+
+git@github.com:farxodovferuz33/itpu-course-project-2025.git
+
+CLI:
+
+gh repo clone farxodovferuz33/itpu-course-project-2025
