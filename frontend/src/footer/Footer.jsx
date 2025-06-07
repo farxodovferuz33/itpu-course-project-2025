@@ -36,7 +36,7 @@ function Footer(props) {
 
                         <li>{lang==="RU"?"Наши адреса:":"Address:"}</li>
                         <li>Uzbekistan, Bukhara region, Bukhara city, BukharaBukhara, Bukhara Street home 845 A</li>
-                        <li><button className={"btn btn-light"}><a target={"_blank"} className={"text-dark"} href="https://maps.app.goo.gl/ZmQku5afMqejd9uz7">Google xaritada ko'rish </a> <img width={20}
+                        <li><button className={"btn btn-light"}><a target={"_blank"} className={"text-dark"} href="https://maps.app.goo.gl/ZmQku5afMqejd9uz7">Google maps </a> <img width={20}
                                                                                                                           src={location} alt=""/></button> </li>
 
                     </ul>
